@@ -1,0 +1,5 @@
+#Sirisha
+#Fri Nov 08 13:05:32 IST 2024
+password=secret_sauce
+url=https\://www.saucedemo.com/v1/
+username=standard_user
