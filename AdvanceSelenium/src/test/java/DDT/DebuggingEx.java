@@ -15,6 +15,7 @@ public class DebuggingEx {
 		
 		Method ele = new Method();
 		Method.maximizewindow(driver);
+	//pull back
 	}
 
 }
