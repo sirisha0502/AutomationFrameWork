@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+  <test thread-count="5" parallel="tests" name="TestRunner1">
+    <classes>
+      <class name="AdvancedScenarios.HandlingDropDownUsingKeysClassTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="TestRunner2">
+    <classes>
+      <class name="AdvancedScenarios.KeysBigbasketExTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="TestRunner3">
+    <classes>
+      <class name="Popups.AlertPopupExTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="TestRunner4">
+    <classes>
+      <class name="Popups.AuthenticationPopupTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="TestRunner5">
+    <classes>
+      <class name="demo.Flipkart2Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

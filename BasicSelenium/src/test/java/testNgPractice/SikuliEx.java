@@ -1,0 +1,11 @@
+package testNgPractice;
+
+public class SikuliEx {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}
